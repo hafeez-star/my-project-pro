@@ -14,11 +14,7 @@ const SideBar = () => {
 
 <li>Home</li>
 <li>Home</li>
-<li>Home</li>
-<li>Home</li>
-<li>Home</li>
-<li>Home</li>
-<li>Home</li>
+
             
         </ul>
       </div>
