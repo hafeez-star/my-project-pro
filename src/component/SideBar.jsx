@@ -22,7 +22,7 @@ const SideBar = () => {
             <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white/20 font-bold">
               SH
             </div>
-            <h1 className="text-lg font-semibold">Smart Home</h1>
+            <h1 className="  font-semibold">Smart </h1>
           </div>
 
           <div className="w-10 h-10 flex items-center justify-center rounded-full bg-white/20">
