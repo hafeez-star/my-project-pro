@@ -6,7 +6,7 @@ import React from 'react'
 
 const WelcomSection = () => {
     return (
-        <div className=' w-225 mx-auto mt-10 flex rounded-lg px-5 py-6 text-white bg-gradient-to-b from-purple-600 to-violet-500'>
+        <div className=' w-225 mx-auto mt-20 flex rounded-lg px-5 py-6 text-white bg-gradient-to-b from-purple-600 to-violet-500'>
 
             <div className=' line-clamp-3 p-5'>
                 <h1 className='font-bold text-2xl mb-4'>Welcome Back Hafeez Mangla</h1>

@@ -2,22 +2,22 @@
 
 
 
-
+import Left from './Left'
 import React from 'react'
+import Right from './Right'
 
 const RoomSection = () => {
     return (
         <div className='w-225 mx-auto mt-10 grid grid-cols-6 gap-4 rounded-lg'>
-            <div className=' col-span-4  rounded-lg bg-transparent shadow-lg p-4'>
-                <div className='flex justify-between'>
-                    <h1 className='font-bold'>Rooms</h1>
+            <div className=' col-span-4  rounded-lg bg-transparent shadow-lg '>
+                
                     <div>
-                        <p>Master bad room</p>
+                        <Left/>
                     </div>
-                </div>
+                
             </div>
-            <div className='bg-black col-span-2 '>
-                <h1>alklk</h1>
+            <div className='col-span-2 '>
+                <Right/>
             </div>
         </div>
     )

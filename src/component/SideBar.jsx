@@ -12,7 +12,7 @@ import {
 
 const SideBar = () => {
   return (
-    <div className="w-64 h-screen bg-gradient-to-b from-purple-600 to-violet-500 text-white p-4 flex flex-col justify-between">
+    <div className="w-64 h-full bg-gradient-to-b from-purple-600 to-violet-500 text-white p-4 flex flex-col justify-between">
 
       
       <div>
