@@ -6,6 +6,7 @@ import Left from './Left'
 import React from 'react'
 import Right from './Right'
 import PopularSection from './PopularSection'
+import AnalyticsCard from './AnalyticsCard'
 const RoomSection = () => {
     return (
         <div className='w-225 mx-auto mt-10 grid grid-cols-6 gap-4 rounded-lg '>
@@ -21,6 +22,9 @@ const RoomSection = () => {
             </div>
             <div className='col-span-4'>
                 <PopularSection/>
+            </div>
+            <div className='col-span-4'>
+                <AnalyticsCard/>
             </div>
         </div>
     )
