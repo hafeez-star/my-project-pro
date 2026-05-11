@@ -19,7 +19,7 @@ const RoomSection = () => {
             <div className='col-span-2 '>
                 <Right/>
             </div>
-            <div className='col-span-4 '>
+            <div className='col-span-4'>
                 <PopularSection/>
             </div>
         </div>
