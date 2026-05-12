@@ -19,7 +19,7 @@ const AnalyticsCard = () => {
   ];
 
   return (
-    <div className="bg-white rounded-[30px] p-4 shadow-sm border">
+    <div className="bg-white rounded-[30px] p-4 shadow-sm">
 
       <div className="grid grid-cols-2 ">
 
