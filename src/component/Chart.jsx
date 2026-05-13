@@ -28,7 +28,7 @@ const Chart = () => {
         <div
             style={{
                 width: "100%",
-                height: 500,
+                height: 300,
                 background: "#f8f8f8",
                 padding: "20px",
                 borderRadius: "20px",

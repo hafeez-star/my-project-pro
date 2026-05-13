@@ -8,6 +8,7 @@ import Right from './Right'
 import PopularSection from './PopularSection'
 import AnalyticsCard from './AnalyticsCard'
 import Chart from './Chart'
+import ShotcutCard from './shotcutCard'
 const RoomSection = () => {
     return (
         <div className=' '>
@@ -30,13 +31,13 @@ const RoomSection = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-6 flex  '>
-                <div className='col-span-4 p-5   '>
-                    <Chart/>
+            <div className='grid grid-cols-12 flex  '>
+                <div className='col-span-8 p-5   '>
+                    <Chart />
 
                 </div>
-                <div className='col-span-4'>
-
+                <div className='col-span-4 p-5'>
+                    <ShotcutCard />
                 </div>
 
             </div>
