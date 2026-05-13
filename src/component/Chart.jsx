@@ -15,7 +15,7 @@ import {
 const data = [
     { month: "Feb", electricity: 40, gas: 30, water: 50 },
     { month: "Mar", electricity: 60, gas: 50, water: 70 },
-    { month: "Apr", electricity: 55, gas: 40, water: 60 },
+    { month: "Apr", electricity: 55, gas: 40, water: 60 , active: true},
     { month: "May", electricity: 60, gas: 45, water: 65 },
     { month: "Jun", electricity: 80, gas: 70, water: 92 },
     { month: "Jul", electricity: 50, gas: 87, water: 75 },
@@ -45,7 +45,7 @@ const Chart = () => {
 
                     <XAxis dataKey="month" />
 
-                    <YAxis domain={[0, 100]} />
+                    <YAxis domain={[10, 90]} />
 
                     <Tooltip />
 
