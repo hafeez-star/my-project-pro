@@ -30,7 +30,7 @@ const shortcuts = [
 
 const ShotcutCard = () => {
   return (
-    <div className="w-[300px] min-h-[300px] rounded-[30px] bg-[#f5f5f5] p-5 shadow-md">
+    <div className="w-[300px] min-h-[300px] rounded-[30px] bg-[#f5f5f5] p-2 shadow-md">
       
       <h2 className="mb-7 text-1xl font-bold text-black">
         Shortcuts

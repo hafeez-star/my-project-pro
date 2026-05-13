@@ -9,6 +9,8 @@ import PopularSection from './PopularSection'
 import AnalyticsCard from './AnalyticsCard'
 import Chart from './Chart'
 import ShotcutCard from './shotcutCard'
+import LightIns from './LightIns'
+import LightColor from './LightColor'
 const RoomSection = () => {
     return (
         <div className=' '>
@@ -40,6 +42,21 @@ const RoomSection = () => {
                     <ShotcutCard />
                 </div>
 
+            </div>
+            <div className='grid grid-cols-12 flex  '>
+                <div className='col-span-6 p-5   '>
+                    <LightIns />
+
+                </div>
+                <div className='col-span-6 p-5'>
+                    <LightColor />
+                </div>
+
+            </div>
+            <div className=' grid grid-cols-6'>
+<div className='col-span-6 p-4 font-bold text-start'>
+<h1>© All rights reserved by Codes. Distributed by: HafeezUllah</h1>
+</div>
             </div>
 
         </div>
